@@ -74,7 +74,7 @@
       tabindex="0"
     >
       <div class="container">
-        <a class="navbar-brand pe-4 fs-4" href="/">
+        <!-- <a class="navbar-brand pe-4 fs-4" href="/">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="32"
@@ -88,7 +88,7 @@
             />
           </svg>
           <span class="ms-1 fw-bolder">Stride</span>
-        </a>
+        </a> -->
 
         <button
           class="navbar-toggler"
@@ -104,31 +104,26 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
+              <a class="nav-link" href="#about"> About me </a>
+            </li>
+            <li class="nav-item">
               <a
                 class="nav-link"
-                href="#services"
+                href="#projects"
                 aria-label="Brings you to the frontpage"
               >
-                Services
+                Projects
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#aboutus"> About us </a>
+              <a class="nav-link" href="#skills"> Skills </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#numbers"> Numbers </a>
+              <a class="nav-link" href="#contactme"> Contact me </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#gallery"> Gallery </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#workwithus"> Work with us </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#testimonials"> Testimonials </a>
-            </li>
+            
           </ul>
-          <a
+          <!-- <a
             href="https://templatedeck.com/stride-html-template.html"
             data-splitbee-event="Click Download"
             aria-label="Download this template"
@@ -150,13 +145,13 @@
                 d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"
               />
             </svg>
-          </a>
+          </a> -->
         </div>
       </div>
     </nav>
 
     <main>
-      <div class="w-100 overflow-hidden bg-gray-100" id="top">
+      <div class="w-100 overflow-hidden bg-gray-100" id="about">
         <div class="container position-relative">
           <div
             class="col-12 col-lg-8 mt-0 h-100 position-absolute top-0 end-0 bg-cover"
@@ -169,13 +164,13 @@
               data-aos="fade-right"
             >
               <h1 class="display-1 fw-bold mt-5">Joanna Gilbert</h1>
-              <p class="lead">
+              <p style="width: 700px" class="lead">
                 Hey there, what's up. I'm a fullstack software engineer with a background in
                 structural engineering. I want to work on projects that can help
                 people and make the world a better place. <3
               </p>
 
-              <p class="lead">
+              <p style="width: 700px" class="lead">
                 To get a better sense of me and my professional background, take a look at <a
                 href="https://docs.google.com/document/d/1EQxJgAGX-nSwxVTxBLkUFiy2SSS5HothESUnlVE_IOs/edit"
                 target="_blank"
@@ -193,7 +188,7 @@
         </div>
       </div>
 
-      <div class="py-vh-5 w-100 overflow-hidden" id="services">
+      <div class="py-vh-5 w-100 overflow-hidden" >
         <div class="container">
           <div class="row d-flex justify-content-end">
             <div class="col-lg-8" data-aos="fade-down">
@@ -203,7 +198,7 @@
               </h2>
             </div>
           </div>
-          <div class="row d-flex align-items-center">
+          <div class="row d-flex align-items-center" id="projects">
             <div
               class="col-md-6 col-lg-4"
               data-aos="fade-up"
@@ -424,7 +419,7 @@
         </div>
       </div>
 
-      <div class="py-vh-4 bg-gray-100 w-100 overflow-hidden" id="aboutus">
+      <div class="py-vh-4 bg-gray-100 w-100 overflow-hidden">
         <div class="container">
           <div class="row d-flex justify-content-between align-items-center">
             <div class="col-lg-6">
@@ -485,7 +480,7 @@
         </div>
       </div>
 
-      <div class="py-vh-5 w-100 overflow-hidden" id="numbers">
+      <div class="py-vh-5 w-100 overflow-hidden" id="skills">
         <div class="container">
           <div class="row d-flex justify-content-between align-items-center">
             <div class="col-lg-5">
@@ -535,14 +530,14 @@
                 
               </div>
               <p></p>
-              <div>See my resume for a complete list of skills.</div>
-              <a
+              <div>See <a
                 href="https://docs.google.com/document/d/1EQxJgAGX-nSwxVTxBLkUFiy2SSS5HothESUnlVE_IOs/edit"
                 target="_blank"
                 rel="noopener noreferrer"
                 class="link-fancy"
-                >My resume
-              </a>
+                >my resume
+              </a> for a complete list of skills.</div>
+              
             </div>
           </div>
         </div>
@@ -613,7 +608,7 @@
         </div>
       </div> -->
 
-      <div class="container py-vh-4 w-100 overflow-hidden">
+      <div class="container py-vh-4 w-100 overflow-hidden" id="contactme">
         <div class="row d-flex justify-content-center align-items-center">
           <div class="col-lg-5">
             <h3 class="py-5 border-top border-dark" data-aos="fade-right">
@@ -623,18 +618,43 @@
           <div class="col-md-7" data-aos="fade-left">
             <blockquote>
               <div class="fs-4 my-3 fw-light pt-4 border-bottom pb-3">
+              <a
+              style="height: 110px; margin-right: 50px;"
+              href="https://github.com/jcgilb"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="link-fancy"
+              >
+              <img style="height: 100px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" /> 
+              </a>
+              <a
+              style="height: 71px; margin-right: 50px;"
+              href="https://www.linkedin.com/in/joanna-gilbert-7b2053255/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="link-fancy"
+              >
+              <img style="height: 100px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain-wordmark.svg" /> 
+              </a>
+              <a
+              style="height: 40px;"
+              href="https://angel.co/u/joanna-gilbert"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="link-fancy"
+              > Wellfound: (formerly AngelList)
+              </a>  
+              </div>
+              <div class="fs-4 my-3 fw-light pt-4 border-bottom pb-3">
                 Phone number: (720) 921-5250
               </div>
               <div class="fs-4 my-3 fw-light pt-4 border-bottom pb-3">
                 Email: jcgilbert@mines.edu
               </div>
-              <a
-            href="https://github.com/jcgilb/soundcloud-clone"
-            target="_blank"
-            rel="noopener noreferrer"
-            >
-            <img style="height: 100px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain-wordmark.svg" />
-            </a>
+              <div class="fs-4 my-3 fw-light pt-4 border-bottom pb-3">
+                Boulder, CO
+              </div>
+              </a>
               <!-- <img
                 src="img/webp/person11.webp"
                 width="64"
@@ -651,7 +671,7 @@
         </div>
       </div>
 
-      <div
+      <!-- <div
         class="py-vh-6 bg-gray-900 text-light w-100 overflow-hidden"
         id="workwithus"
       >
@@ -1430,10 +1450,10 @@
           </div>
         </div>
       </div>
-    </main>
+    </main> -->
 
     <footer>
-      <div class="container small border-top">
+      <!-- <div class="container small border-top">
         <div class="row py-5 d-flex justify-content-between">
           <div class="col-12 col-lg-6 col-xl-3 border-end p-5">
             <svg
@@ -1544,7 +1564,7 @@
             </ul>
           </div>
         </div>
-      </div>
+      </div> -->
 
       <div class="container text-center py-3 small">
         Made by
